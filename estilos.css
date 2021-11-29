@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;&1,400&;1,500&display=swap');
+/*Importa las fuentes ocupadas para la pagina Web mediante un link*/
+
+*{/*Referencía a todo el documento*/
+    font-family: 'Asap', sans-serif; /*Se establece el nombre de las fuente*/
+    margin: 0; padding: 0; /*Se establece el valor de los margenes y espacios de los elementos*/
+    box-sizing: border-box; /*Define el ancho de un elemento*/
+    transition: 0.2s; /*Duración de la animación de la pagina*/
+}
+
+header{ /*Referencia a la sección de la cabecera*/
+    background-color: #F9F8FC; /*Establece el color del fondo*/
+}
+
+ul, ol {/*Referencia a la lista desordenada del menu*/
+    list-style:none; /*Se le quita el estilo a la lista*/
+}
+
+.nav > li { /*Referencia a los elementos de la lista*/
+    float:left; /*Se define la posición izquierda a un elemento*/
+}
+
+.nav li a {
+    background-color:rgb(24, 76, 119);
+    color:#fff; /*Define el color del texto*/
+    text-decoration:none; /*Quita el formato del texto*/
+    padding:10px 12px; /*Define el margen del elemento*/
+    display:block; /*Bloquea la visualización de los elementos*/
+}
+
+.nav li a:hover { /*Hace una referencia a elementos que haran una acción al interactuar con el mouse*/
+    background-color:rgb(53, 91, 122); /*Cambia el color del fondo*/
+}
+
+.nav li ul {
+    display:none; /*Esconde los elementos de la pantalla*/
+    position:absolute; /*Establece la posicion exacta de los elementos*/
+    min-width:140px; /*Establece la anchura minima de los elementos*/
+}
+
+.nav li:hover > ul {
+    display:block; 
+}
+
+.nav li ul li {
+    position:relative; /*Posicionamiento relativo de los elementos*/
+}
+
+.nav li ul li ul {
+    right:-140px; /*Establece la pisición derecha de los elmentos*/
+    top:0px; /*Establece la altora de los elementos*/
+}

@@ -1,0 +1,233 @@
+<!DOCTYPE html> <!--Documento tipo HTML-->
+<html lang="es"></html> <!--Etqueta que define el lenguaje, español-->
+
+<html> <!--Esta etiqueta es donde comienza el documento HTML-->
+    <head> <!--Etiqueta donde se escribe la información en la pestaña-->
+        <meta charset="UTF-8"> <!--Esta patte sirve para establecer nuestro archivo en español-->
+        <title>Instituto Tecnológico de Tuxtepec</title> <!--Etiqueta para el título que llevará la pestaña-->
+        <link rel = "stylesheet" href="estilos.css"> <!--Referencia para el archivo Css externo-->
+    </head> <!--Termina la etiqueta de la pestaña-->
+
+    <body> <!--Esta etiqueta define el cuerpo del documento-->
+
+        <style>  /*Etiqueta donde comienza el código Css*/
+
+            table tr td h1{ /*Referencia a la sección HTML que se le aplica estilo Css*/
+                color:black; /*Instrucción que cambia el color del texto*/
+                padding-left: 5px; /*Instrucción que establece la medida de separación a la izquierda*/
+                text-decoration: none; /*Quita el hipervinculo del texto*/
+                font-weight: bold; /*Para texto en negritas*/
+                font-size: larger; /*Para el tamaño de la fuente*/
+            }
+
+        </style> <!--Termina la sección de estilo Css-->
+
+        <table width = 100%> <!--Etiqueta que crea una tabla-->
+            <tr> <!--Etiqueta que crea una fila de la tabla-->
+                <td width = 5%><img src = "Images/logo.jpg" alt  = "" width="60" height="60"></td>  
+                <td width = 75%><h1>INSTITUTO TECNOLÓGICO DE TUXTEPEC</h1></td>
+                <td width = 20%><img src = "Images/TecNM.png" alt = "" height="60"></td>
+                <!--Crea las columnas de la tabla-->
+            </tr>
+        </table>
+        
+
+
+
+ 4
+        <a href="#" class = "logo"> <!--Crea enlaces a otras paginas -->
+            <img src = "Images/fondo1.jpg" alt  = "" width="1353" > <!--Etiqueta para incrustar imagen-->
+        </a>
+
+        <br><br> <!--Saltos de linea-->
+
+        <style> /*Empieza la sección de estilo Css*/
+
+        table tr td ul .titulo{
+            font-weight: bold;
+            color: rgb(70, 120, 167);
+            padding: 5px; /*Establece el espacio requerido a un elemento*/
+        }
+
+        table tr td ul .titulo ul li{
+            color: rgb(0, 0, 0);
+            font-weight:normal;
+            padding: 5px;
+        }
+
+        </style>
+
+        <table width = 100%> <!--Etiqueta para crear una tabla y se le asigna un ancho del 100% de la pantalla-->
+            <tr><!--Etiqueta para crear una fila-->
+                <td class = "Celda1" width = 30%> <!--Etiqueta que crea una columna con ancho de 30% respecto a la tabla-->
+                    <h2 style="color:rgb(121, 121, 121)" ><center>LISTADO DE CARRERAS</center></h2> <br><br>
+                    <!--Se define una etiqueta para la cabecera y se le asigna un color-->
+                    <ul> <!--Etiqueta para crear una lista desordenada-->
+                        <li class = "titulo">LICENCIATURAS <!--Se escribe un elemento de la lista-->
+                            <ul> <!--Dentro se crea una lista anidada desordenada-->
+                                <li>Administración</li> <!--Elemento de la lista desordenada anidada-->
+                                <li>Contador Público</li>
+                            </ul>
+                        </li>
+                        <li class = "titulo">INGENIERÍAS
+                            <ul>
+                                <li>Bioquímica</li>
+                                <li>Civil</li>
+                                <li>Electrónica</li>
+                                <li>Electromecánica</li>
+                                <li>Informática</li>
+                                <li>Gestión Empresarial</li>
+                                <li>Sistemas Computacionales</li>
+                            </ul>
+                        </li>
+                    </ul>
+                
+                </td>
+
+                <style>
+                tr .lista{
+                    padding-left: 30%;
+                }
+
+                td .DatosGen  {
+                    font-weight:bold;
+                    text-align: center;
+                    color:hsla(0, 0%, 53%, 0.589); /*Define el color del texto*/
+                    font-size:larger;
+                }
+
+                tr .lista dt{
+                    font-weight: bold;
+                    color: rgb(70, 120, 167);
+                    padding: 5px;
+                }
+
+                /*tr td{
+                   border: orange 5px solid;
+                }*/
+                
+
+                </style>
+
+                <td Valign ="top"> <!--Establece otra columna a la tabla-->
+                    <h2 style="color:rgb(121, 121, 121)" ><center>REQUISITOS PARA REVISIÓN DE DOCUMENTOS</center></h2> <br><br>
+                    <!--Etiqueta para crear un encabezado-->
+                    <ol>
+                        <li>Certificado de bachillerato original y copia (La copia deberá estar certificada  por la escuela de procedencia) o constancia de terminación de estudios</li><br>
+                        <li>Acta de nacimiento en original y copia tamaño carta</li><br>
+                        <li>Clave Unica de Registro de Población actualizada</li><br>
+                        <li>2 fotografías tamaño infantil  recientes en blanco y negro o a color</li><br>
+                        <li>Constancia de vigencia del Instituto Mexicano del Seguro Social</li><br>
+                        <!--Elementos anidados en lista-->
+                    </ol>
+                
+                </td>
+
+                <td width = 30%>
+                    <p class="DatosGen">Datos Generales</p>
+                    <!--Etiqueta para un parrafo-->
+                    <dl class="lista">
+                        
+                        <dt>Dirección</dt> <!--Especifica una lista de definiciones-->
+                        <dd>Calzada Dr. Víctor Bravo Ahuja Num. 561, Col. Predio el Paraíso, C.P. 68350, San Juan Bautista Tuxtepec,Oaxaca</dd><br>
+                        <!--Detalles a cerca de la definición-->
+                        <dt>Correo Electrónico</dt>
+                        <dd>cyd_tuxtepec@tecnm.mx </dd><br>
+                        <dt>Teléfono</dt>
+                        <dd>287 8751880 Ext. 114</dd><br>
+                        <dt>Horario de atención</dt>
+                        <dd>Lunes-Viernes 9:00-13:00<dd>
+                        <dd>Sábado 10:00-12:00<dd>
+                    </dl>
+                </td>
+            </tr>
+        </table>
+
+        <table width = 100%> <!--Tercera tabla con ancho de 100% respecto a la pantalla-->
+            <tr>
+                <td width = 70% Valign ="top"> <!--Primera columna con ancho del 70%-->
+                    <form> <!--Etiqueta para crear un formulario-->
+                        <table> <!--Se crea una tabla dentro de la tabla principal-->
+                            <tr> 
+                                <h2 style="color:rgb(121, 121, 121)" ><center>CONTACTANOS</center></h2> <br><br>
+                                <ul>
+                                <td>
+                                    <li>
+                                        <label>Apellido Paterno:</label> <!--Etiqueta que crea un label para el texto-->
+                                        <input type = "text" id = "aPaterno"> 
+                                        <!--Input se usa para crear un campo para ingresar texto-->
+                                    </li>
+                                </td>
+                                <td>
+                                    <li>
+                                        <label>Apellido Materno:</label>
+                                        <input type="text" id="aMaterno"/>
+                                    </li>
+                                </td>
+                                <td>
+                                    <li>
+                                        <label>Nombre(s):</label>
+                                        <input type="text" id="nombre"/>
+                                    </li>
+                                </td>
+                                </ul>
+                            </tr>
+                            
+                            <tr>
+                                <ul>
+                                <td><br>
+                                    <li>
+                                        <label>Correo Electrónico:</label>
+                                        <input type = "email" id = "correo">
+                                    </li>
+                                </td>
+                                <td><br>
+                                    <li>
+                                        <label>Número Telefónico:</label>
+                                        <input type = "number" id = "telefono">
+                                    </li>
+                                <tr>
+                                    <td>
+                                        <style>
+                                            li textarea{ /*Referencia para dar estilo a la area de texto*/
+                                                width:300px; /*Redimensiona un ancho de 300*/
+                                                height: 200px; /*Redimensiona un alto de 200*/
+                                                
+                                            }
+                                        </style>
+                                    <li>
+                                        <label for="msg">Mensaje:</label> 
+                                        <textarea id="msg" name="user_message" ></textarea>
+                                        <!--Area para ingresar una texto extenso-->
+                                    </li>
+                                <td>    
+                                    <button type="submit">Envíe su mensaje</button>
+                                    <!--Botón para enviar datos al formulario cuando se desarrolle-->
+                                </td>
+                                </td>
+                                </tr>
+
+                                </td>
+                                </ul>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+
+                <td width = 30% Valign ="top">
+                    <h2 style="color:rgb(121, 121, 121)" ><center>VIDEO PROMOCIONAL</center></h2> <br><br>
+                    <!--Etiqueta de cabecera-->
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/mxmNFLErojs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <!--Etiqueta para insertar archivo de video con atributos de ancho, alto, la dirección de video, titulo de video, establecer borde, y para permitir ciertas opciones-->
+                    <br><br>
+                    <h2 style="color:rgb(121, 121, 121)" ><center>HIMNO TECNM</center></h2> <br><br>
+                    <audio controls> <!--Crea el espacio para insertar un elemento de audio-->
+                        <source src="Himno.mp3" type="audio/mp3"> <!--Se agrega la hubicación del archvio-->
+                    </audio>
+                </td>
+            </tr>
+
+        </table>
+
+    </body>
+</html>
